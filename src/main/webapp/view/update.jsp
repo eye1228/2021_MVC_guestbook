@@ -4,13 +4,13 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>        
 <%
-	request.setCharacterEncoding("utf-8");
+        request.setCharacterEncoding("utf-8");
 
-   	String idx = request.getParameter("idx");
-    VO vo = DAO.getInstance().getSelectOne(idx);
+                   	String idx = request.getParameter("idx");
+                    VO vo = DAO.getInstance().getSelectOne(idx);
 
-   pageContext.setAttribute("vo", vo);
-%> 
+                   pageContext.setAttribute("vo", vo);
+        %> 
 <!DOCTYPE html>
 <html>
 <head>

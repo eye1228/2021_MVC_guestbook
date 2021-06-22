@@ -1,7 +1,7 @@
 package com.ict.db;
 
 public class VO {
-	String idx, name, title, email, pw, msg, reg;
+	String idx, name, title, email, pw, msg, reg, f_name;
 
 	public String getReg() {
 		return reg;
